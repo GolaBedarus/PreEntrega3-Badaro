@@ -1,0 +1,15 @@
+@media (min-width: 600px) {
+    .wide{
+        grid-column: span 2;
+    }
+
+    .tall{
+        grid-row: span 2;
+    }
+}
+
+@media (max-width:480px) {
+    .formulario{
+        width: 100%;
+    }
+}

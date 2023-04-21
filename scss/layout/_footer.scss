@@ -1,0 +1,57 @@
+.pie-pagina{
+    background-color: $background-principal;
+    width: 100%;
+    border-bottom: 1px solid $color-principal;
+    box-shadow: 5px 0 5px rgba(0, 0, 0, .6);
+    margin-top: auto;
+    .grupo-1{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        padding: 45px 20px;
+        justify-content: center;
+        .box{
+            h2{
+                color: $color-principal;
+                margin-bottom: 25px;
+                font-size: 20px;
+            }
+            p{
+                color: #efefef;
+                margin-bottom: 10px;
+            }
+        }
+        .red-social{
+            a{
+                display: inline-block;
+                text-decoration: none;
+                width: 45px;
+                height: 45px;
+                line-height: 45px;
+                color: $color-principal;
+                margin-right: 10px;
+                background-color: #3C2A21;
+                text-align: center;
+                transition: all 300ms ease;
+                a:hover{
+                    color: beige;
+                }
+                }   
+        }
+        .logo1{
+            color: #D5CEA3;
+            font-size: 30px;
+            font-weight: bold;
+        }
+    }
+    .grupo-2{
+        background-color: #3C2A21;
+        padding: 15px 20px;
+        text-align: center;
+        color: $color-principal;
+        .small{
+            font-size: 15px;
+        }
+    }
+}
